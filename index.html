@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luan Fernando — Portfólio de sites</title>
+<meta name="description" content="Portfólio de sites de Luan Fernando: demonstrações de sites para empresas, com vídeo de cada trabalho, visual moderno e ótimo no celular.">
+<meta name="theme-color" content="#0d0e10">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Luan Fernando — Portfólio de sites">
+<meta property="og:description" content="Portfólio de sites de Luan Fernando: demonstrações de sites para empresas, com vídeo de cada trabalho, visual moderno e ótimo no celular.">
+<meta property="og:url" content="https://luanfernand0.github.io/">
+<meta property="og:image" content="https://luanfernand0.github.io/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth;background:#0d0e10}
+
+body{margin:0}
+.pg{--bg:#0d0e10;--sf:#15171b;--sf2:#1c1f24;--ln:rgba(242,239,233,.14);--ink:#f2efe9;--mut:#a9afba;--acc:#ff6a3d;--acc-t:#ff8a62;--paper:#f2efe9;--pk:#15171b;--pm:#555b66;--pa:#b8390a;
+ container-type:inline-size;width:100%;background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,sans-serif;font-size:17px;line-height:1.6;overflow-x:clip}
+.pg *{box-sizing:border-box}
+:where(.pg) a{color:inherit;text-decoration:none}
+.w{max-width:1240px;margin:0 auto;padding:0 clamp(20px,4cqi,48px)}
+.mono{font-family:'JetBrains Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.mut{color:var(--mut)}
+.serif,.h1,.h2,.h3,.lg{font-family:'Instrument Serif',Georgia,serif;font-weight:400}
+.h1{margin:0;font-size:clamp(46px,7cqi,96px);line-height:.98;letter-spacing:-.02em}
+.h1 em,.h2 em{font-style:italic;color:var(--acc-t)}
+.h2{margin:0;font-size:clamp(38px,5.2cqi,68px);line-height:1;letter-spacing:-.015em}
+.h3{margin:0;font-size:clamp(34px,3.6cqi,50px);line-height:1.02;letter-spacing:-.01em}
+.kick{display:inline-flex;align-items:center;gap:12px;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--acc-t)}
+.kick::before{content:"";width:28px;height:1px;background:currentColor}
+.lead{margin:0;font-size:18px;line-height:1.65;color:var(--mut);max-width:56ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;font-family:'Inter',system-ui,sans-serif;font-weight:600;font-size:15px;cursor:pointer;border:1px solid transparent;white-space:nowrap;transition:background .2s,border-color .2s,transform .2s}
+.btn-p{background:var(--acc);color:#0d0e10}
+.btn-p:hover{background:#ff8458;transform:translateY(-2px)}
+.btn-g{background:transparent;color:var(--ink);border-color:var(--ln)}
+.btn-g:hover{border-color:var(--ink);transform:translateY(-2px)}
+.hd{position:sticky;top:0;z-index:30;background:rgba(13,14,16,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--ln)}
+.hd-in{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px}
+.logo{display:flex;align-items:center;gap:12px}
+.lg{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;border:1px solid var(--ln);background:var(--sf);color:var(--acc-t);font-size:22px;line-height:1;letter-spacing:-.02em}
+.logo b{font-weight:600;font-size:16px}
+.nav{display:flex;align-items:center;gap:4px}
+.nav a{padding:10px 16px;border-radius:999px;font-size:15px;font-weight:500;color:var(--mut);transition:color .2s,background .2s}
+.nav a:hover{color:var(--ink);background:rgba(242,239,233,.07)}
+.hero{padding:clamp(56px,8cqi,104px) 0 clamp(48px,6cqi,80px);position:relative}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 55% at 85% 20%,rgba(255,106,61,.16),transparent 70%);pointer-events:none}
+.hero-g{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,5cqi,72px);align-items:center}
+.hero-t{display:flex;flex-direction:column;gap:28px;align-items:flex-start}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border:1px solid var(--ln);border-radius:999px;font-size:14px;color:var(--mut)}
+.pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--acc)}
+.hero-v{position:relative;padding:0 0 28px 28px}
+.hero-v::before{content:"";position:absolute;left:0;bottom:0;right:28px;top:28px;border:1px solid var(--ln);border-radius:22px}
+.fr{position:relative;border:1px solid var(--ln);border-radius:20px;overflow:hidden;background:var(--sf);box-shadow:0 40px 80px rgba(0,0,0,.5)}
+.fr-bar{display:flex;align-items:center;gap:8px;height:44px;padding:0 16px;border-bottom:1px solid var(--ln);background:var(--sf2)}
+.fr-bar i{width:10px;height:10px;border-radius:50%;background:rgba(242,239,233,.22);display:block}
+.fr-bar span{margin-left:10px;font-size:11px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.screen{position:relative;aspect-ratio:16/9;background:#0a0b0d;overflow:hidden}
+.poster,.vid,.soon{position:absolute;inset:0;width:100%;height:100%}
+.poster{object-fit:cover;display:block}
+.vid{object-fit:contain;background:#000}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.55))}
+.play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50%;border:0;background:var(--acc);color:#0d0e10;display:grid;place-items:center;cursor:pointer;box-shadow:0 18px 40px rgba(0,0,0,.5);transition:transform .25s}
+.play:hover{transform:translate(-50%,-50%) scale(1.08)}
+.dur{position:absolute;left:18px;bottom:16px;padding:8px 14px;border-radius:999px;background:rgba(13,14,16,.82);font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
+.soon{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;gap:14px;padding:clamp(18px,3cqi,36px)}
+.soon-n{font-family:'Instrument Serif',Georgia,serif;font-size:clamp(34px,4.4cqi,60px);line-height:1;color:var(--ink)}
+.soon-b{padding:7px 14px;border-radius:999px;border:1px solid rgba(242,239,233,.35);font-family:'JetBrains Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.chipf{position:absolute;left:44px;bottom:44px;display:inline-flex;align-items:center;gap:10px;padding:10px 18px;border-radius:999px;background:rgba(13,14,16,.88);border:1px solid var(--ln);font-size:14px;font-weight:600}
+.strip{border-top:1px solid var(--ln);border-bottom:1px solid var(--ln);background:var(--sf)}
+.strip-in{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 34px;padding:22px 0}
+.strip-in span{display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:500;color:var(--mut)}
+.strip-in span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--acc)}
+.sec{padding:clamp(72px,9cqi,128px) 0}
+.sc{scroll-margin-top:84px}
+.sec-h{display:flex;flex-direction:column;gap:20px;margin-bottom:clamp(36px,5cqi,64px);max-width:760px}
+.case{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(28px,5cqi,72px);align-items:center;padding:clamp(40px,5cqi,64px) 0;border-top:1px solid var(--ln)}
+.case.rev .cm{order:2}
+.ct{display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.ul li{display:flex;gap:12px;font-size:16px;color:var(--ink)}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{padding:6px 14px;border-radius:999px;background:var(--sf2);font-size:13px;color:var(--mut)}
+.act{display:flex;align-items:center;min-height:48px}
+.lt{background:var(--paper);color:#15171b}
+.lt .lead{color:var(--pm)}
+.lt .kick{color:var(--pa)}
+.lt .h2 em{color:var(--pa)}
+.sv-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.sv{display:flex;flex-direction:column;gap:16px;padding:28px;border:1px solid rgba(21,23,27,.16);border-radius:20px;background:#fff}
+.sv-i{display:grid;place-items:center;width:52px;height:52px;border-radius:14px;background:#15171b;color:#ff8a62}
+.sv h3{margin:0;font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:30px;line-height:1.05}
+.sv p{margin:0;font-size:16px;color:var(--pm)}
+.st-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;counter-reset:s}
+.stp{display:flex;flex-direction:column;gap:14px;padding:28px 0 0;border-top:1px solid var(--ln)}
+.stp .n{font-family:'Instrument Serif',Georgia,serif;font-size:72px;line-height:.9;color:var(--acc-t)}
+.stp h3{margin:0;font-size:20px;font-weight:600}
+.stp p{margin:0;font-size:16px;color:var(--mut)}
+.ctp{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5cqi,64px);align-items:center;padding:clamp(32px,5cqi,64px);border:1px solid var(--ln);border-radius:28px;background:radial-gradient(80% 90% at 100% 0%,rgba(255,106,61,.18),transparent 65%),var(--sf)}
+.ctp-t{display:flex;flex-direction:column;gap:22px;align-items:flex-start}
+.rows{display:flex;flex-direction:column;gap:12px}
+.row{display:flex;align-items:center;gap:16px;padding:16px 20px;border:1px solid var(--ln);border-radius:16px;background:rgba(13,14,16,.5)}
+a.row:hover{border-color:var(--ink)}
+.row-i{display:grid;place-items:center;width:44px;height:44px;border-radius:12px;background:var(--sf2);color:var(--acc-t)}
+.row b{display:block;font-size:15px;font-weight:600}
+.row small{display:block;font-family:'JetBrains Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.08em;color:var(--mut)}
+.ft{border-top:1px solid var(--ln);padding:36px 0 44px}
+.ft-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 32px;font-size:14px;color:var(--mut)}
+.ft a:hover{color:var(--ink)}
+@container (max-width:1040px){
+ .nav{display:none}
+ .hero-g{grid-template-columns:minmax(0,1fr)}
+ .case{grid-template-columns:minmax(0,1fr)}
+ .case.rev .cm{order:0}
+ .sv-g,.st-g{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .ctp{grid-template-columns:minmax(0,1fr)}
+}
+@container (max-width:720px){
+ .sv-g,.st-g{grid-template-columns:minmax(0,1fr)}
+ .hd-in{min-height:68px;gap:12px}
+ .lbl-l{display:none}
+ .logo b{font-size:15px}
+ .hd .btn{padding:0 18px;min-height:44px}
+ .hero-v{padding:0 0 18px 18px}
+ .hero-v::before{right:18px;top:18px}
+ .chipf{left:30px;bottom:30px;font-size:13px}
+ .play{width:72px;height:72px}
+ .dur{left:12px;bottom:12px}
+ .cta .btn{flex:1 1 100%}
+}
+
+</style>
+</head>
+<body>
+<div class="pg" id="topo">
+ <header class="hd">
+  <div class="w hd-in">
+   <a class="logo" href="#topo" aria-label="Luan Fernando, início"><span class="lg">LF</span><b>Luan Fernando</b></a>
+   <nav class="nav" aria-label="Principal">
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#servicos">O que eu faço</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#contato">Contato</a>
+   </nav>
+   <a class="btn btn-p" href="https://wa.me/5521967211314?text=Ol%C3%A1%2C%20Luan!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20site."><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 20l1.3-4.2A8.5 8.5 0 1 1 8.4 18.8L4 20z"/><path d="M9.2 8.6c0 3.4 2.8 6.2 6.2 6.2l.9-1.4-1.9-1-.9.7a4.2 4.2 0 0 1-2.1-2.1l.7-.9-1-1.9-.9.4z"/></svg> <span><span class="lbl-l">Chamar no </span>WhatsApp</span></a>
+  </div>
+ </header>
+ <section class="hero">
+  <div class="w hero-g">
+   <div class="hero-t">
+    <span class="kick">Luan Fernando · Criação de sites</span>
+    <h1 class="h1">Sites bonitos que viram <em>pedidos de orçamento</em>.</h1>
+    <p class="lead">Crio sites para empresas e prestadores de serviço: visual moderno, ótimo no celular e com um caminho direto para o cliente chamar no WhatsApp.</p>
+    <div class="cta">
+     <a class="btn btn-p" href="#trabalhos">Ver os trabalhos <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+     <a class="btn btn-g" href="https://wa.me/5521967211314?text=Ol%C3%A1%2C%20Luan!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20site."><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 20l1.3-4.2A8.5 8.5 0 1 1 8.4 18.8L4 20z"/><path d="M9.2 8.6c0 3.4 2.8 6.2 6.2 6.2l.9-1.4-1.9-1-.9.7a4.2 4.2 0 0 1-2.1-2.1l.7-.9-1-1.9-.9.4z"/></svg> Falar comigo</a>
+    </div>
+    <div class="pills"><span class="pill">Visual moderno</span><span class="pill">Feito para o celular</span><span class="pill">Orçamento pelo WhatsApp</span></div>
+   </div>
+   <div class="hero-v">
+    <div class="fr">
+     <div class="fr-bar"><i></i><i></i><i></i><span class="mono">Prumo Rio · demonstração</span></div>
+     <div class="screen"><img class="poster" src="assets/poster1.jpg" alt="Página inicial do site Prumo Rio"></div>
+    </div>
+    <a class="chipf" href="#caso-1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12h14M13 6l6 6-6 6"/></svg> Ver o vídeo deste site</a>
+   </div>
+  </div>
+ </section>
+ <div class="strip"><div class="w strip-in"><span>Site institucional</span><span>Renovação de site</span><span>Loja e catálogo</span><span>Formulário para WhatsApp</span><span>Versão para celular</span></div></div>
+ <section class="sec sc" id="trabalhos">
+  <div class="w">
+   <div class="sec-h">
+    <span class="kick">01 — Trabalhos</span>
+    <h2 class="h2">Veja os sites <em>funcionando</em>.</h2>
+    <p class="lead">Cada trabalho tem um vídeo curto, para você ver o site em uso antes de qualquer conversa.</p>
+   </div>
+   
+  <article class="case" id="caso-1">
+   <div class="cm">
+    <div class="fr">
+     <div class="fr-bar"><i></i><i></i><i></i><span class="mono">Prumo Rio · demonstração</span></div>
+     <div class="screen"><img class="poster" src="assets/poster1.jpg" alt="Página inicial do site Prumo Rio"><div class="shade"></div><button type="button" class="play" data-case="1" aria-label="Assistir ao vídeo do site Prumo Rio"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" style="flex:none;margin-left:4px"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></button><span class="dur">Assistir ao vídeo · 1m43</span></div>
+    </div>
+   </div>
+   <div class="ct">
+    <span class="kick">Caso 01 · Reformas e manutenção</span>
+    <h3 class="h3">Prumo Rio</h3>
+    <p class="lead">Site de serviços para uma empresa de reformas: oito especialidades em um seletor com foto, passo a passo do atendimento, perguntas frequentes e áreas atendidas.</p>
+    <ul class="ul"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Formulário que monta a mensagem e abre o WhatsApp</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Seletor de serviços com foto e texto que trocam</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Menu recolhido e blocos empilhados no celular</span></li></ul>
+    <div class="tags"><span class="tag">Site institucional</span><span class="tag">WhatsApp</span><span class="tag">Celular</span></div>
+    <div class="act"><button type="button" class="btn btn-g" data-case="1">Assistir ao vídeo <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+   </div>
+  </article>
+  <article class="case rev" id="caso-2">
+   <div class="cm">
+    <div class="fr">
+     <div class="fr-bar"><i></i><i></i><i></i><span class="mono">Aurum Ferragens · demonstração</span></div>
+     <div class="screen"><img class="poster" src="assets/poster2.jpg" alt="Página inicial do site Aurum Ferragens"><div class="shade"></div><button type="button" class="play" data-case="2" aria-label="Assistir ao vídeo do site Aurum Ferragens"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" style="flex:none;margin-left:4px"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></button><span class="dur">Assistir ao vídeo · 1m59</span></div>
+    </div>
+   </div>
+   <div class="ct">
+    <span class="kick">Caso 02 · Ferragens e loja online</span>
+    <h3 class="h3">Aurum Ferragens</h3>
+    <p class="lead">Site e loja para uma empresa de ferragens, em dourado, preto e branco: início com a peça em destaque, guia de medidas, catálogo com filtros, carrinho e fluxo de compra.</p>
+    <ul class="ul"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Escolha do acabamento e guia de medidas interativos</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Catálogo com filtro, ordenação e carrinho</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Pagamento em Pix ou cartão na própria página</span></li></ul>
+    <div class="tags"><span class="tag">Loja online</span><span class="tag">Catálogo</span><span class="tag">Carrinho</span></div>
+    <div class="act"><button type="button" class="btn btn-g" data-case="2">Assistir ao vídeo <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+   </div>
+  </article>
+  <article class="case" id="caso-3">
+   <div class="cm">
+    <div class="fr">
+     <div class="fr-bar"><i></i><i></i><i></i><span class="mono">Atelier Nogueira · demonstração</span></div>
+     <div class="screen"><img class="poster" src="assets/poster3.jpg" alt="Página inicial do site Atelier Nogueira"><div class="shade"></div><button type="button" class="play" data-case="3" aria-label="Assistir ao vídeo do site Atelier Nogueira"><svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" style="flex:none;margin-left:4px"><path d="M7 4.5v15l13-7.5z" fill="currentColor"/></svg></button><span class="dur">Assistir ao vídeo · 1m04</span></div>
+    </div>
+   </div>
+   <div class="ct">
+    <span class="kick">Caso 03 · Arquitetura e marcenaria</span>
+    <h3 class="h3">Atelier Nogueira</h3>
+    <p class="lead">Site de apresentação para um escritório de arquitetura e marcenaria sob medida: desenho técnico em destaque, materiais, serviços, projetos, processo em quatro etapas e contato.</p>
+    <ul class="ul"><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Desenho técnico da peça logo no início</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Materiais, serviços e projetos em seções claras</span></li><li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none;color:var(--acc-t);margin-top:4px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Processo de trabalho em quatro etapas</span></li></ul>
+    <div class="tags"><span class="tag">Site institucional</span><span class="tag">Projetos</span><span class="tag">Celular</span></div>
+    <div class="act"><button type="button" class="btn btn-g" data-case="3">Assistir ao vídeo <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+   </div>
+  </article>
+  </div>
+ </section>
+ <section class="sec sc lt" id="servicos">
+  <div class="w">
+   <div class="sec-h">
+    <span class="kick">02 — O que eu faço</span>
+    <h2 class="h2">Do site novo à <em>renovação</em> do que já existe.</h2>
+   </div>
+   <div class="sv-g">
+    <div class="sv"><span class="sv-i"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect x="3" y="4.5" width="18" height="15" rx="2"/><path d="M3 9h18M6.8 6.8h.01M9.8 6.8h.01"/></svg></span><h3>Site institucional</h3><p>Apresenta a empresa, os serviços e as áreas atendidas, com o contato sempre à vista.</p></div>
+    <div class="sv"><span class="sv-i"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M20 11a8 8 0 0 0-14.5-4M4 4v4h4M4 13a8 8 0 0 0 14.5 4M20 20v-4h-4"/></svg></span><h3>Renovação de site</h3><p>Pega o site que você já tem e entrega uma versão mais moderna, fácil de usar e bonita no celular.</p></div>
+    <div class="sv"><span class="sv-i"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span><h3>Loja e catálogo</h3><p>Página de produtos com opção de compra, para vender dentro do próprio site.</p></div>
+    <div class="sv"><span class="sv-i"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 5h16v11H9l-5 4V5z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><h3>Orçamento pelo WhatsApp</h3><p>Formulário que monta a mensagem pronta e abre a conversa, sem o cliente digitar tudo de novo.</p></div>
+   </div>
+  </div>
+ </section>
+ <section class="sec sc" id="como-funciona">
+  <div class="w">
+   <div class="sec-h">
+    <span class="kick">03 — Como funciona</span>
+    <h2 class="h2">Você vê o site <em>antes</em> de decidir.</h2>
+   </div>
+   <div class="st-g">
+    <div class="stp"><span class="n">01</span><h3>Conversa</h3><p>Você conta o que a empresa faz e como quer ser vista pelos clientes.</p></div>
+    <div class="stp"><span class="n">02</span><h3>Demonstração</h3><p>Eu monto uma prévia visual do site para você ver antes de qualquer compromisso.</p></div>
+    <div class="stp"><span class="n">03</span><h3>Ajustes</h3><p>Mudamos textos, cores e fotos até ficar do jeito certo para o seu negócio.</p></div>
+    <div class="stp"><span class="n">04</span><h3>Site completo</h3><p>Com a prévia aprovada, desenvolvo o site completo.</p></div>
+   </div>
+  </div>
+ </section>
+ <section class="sec sc" id="contato" style="padding-top:0">
+  <div class="w">
+   <div class="ctp">
+    <div class="ctp-t">
+     <span class="kick">04 — Contato</span>
+     <h2 class="h2">Vamos conversar sobre o <em>seu site</em>?</h2>
+     <p class="lead">Chame no WhatsApp e conte o que a sua empresa faz. Eu respondo com ideias para o visual do site.</p>
+     <a class="btn btn-p" href="https://wa.me/5521967211314?text=Ol%C3%A1%2C%20Luan!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20site."><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 20l1.3-4.2A8.5 8.5 0 1 1 8.4 18.8L4 20z"/><path d="M9.2 8.6c0 3.4 2.8 6.2 6.2 6.2l.9-1.4-1.9-1-.9.7a4.2 4.2 0 0 1-2.1-2.1l.7-.9-1-1.9-.9.4z"/></svg> Chamar no WhatsApp</a>
+    </div>
+    <div class="rows">
+     <a class="row" href="https://wa.me/5521967211314?text=Ol%C3%A1%2C%20Luan!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20site."><span class="row-i"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M4 20l1.3-4.2A8.5 8.5 0 1 1 8.4 18.8L4 20z"/><path d="M9.2 8.6c0 3.4 2.8 6.2 6.2 6.2l.9-1.4-1.9-1-.9.7a4.2 4.2 0 0 1-2.1-2.1l.7-.9-1-1.9-.9.4z"/></svg></span><div><b>WhatsApp</b><small>(21) 96721-1314</small></div></a>
+     <a class="row" href="mailto:fluan030@gmail.com"><span class="row-i"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><b>E-mail</b><small style="text-transform:none;letter-spacing:.02em;font-size:13px">fluan030@gmail.com</small></div></a>
+    </div>
+   </div>
+  </div>
+ </section>
+ <footer class="ft">
+  <div class="w ft-in">
+   <span>© 2026 Luan Fernando</span>
+   <span>Nomes e marcas dos projetos mostrados são fictícios.</span>
+   <a href="#topo">Voltar ao topo ↑</a>
+  </div>
+ </footer>
+</div>
+<script>
+(function(){
+  var V = {"1": ["assets/prumo-rio.mp4", "assets/poster1.jpg", "Prumo Rio"], "2": ["assets/aurum-ferragens.mp4", "assets/poster2.jpg", "Aurum Ferragens"], "3": ["assets/atelier-nogueira.mp4", "assets/poster3.jpg", "Atelier Nogueira"]};
+  document.addEventListener('click', function(e){
+    var b = e.target.closest('[data-case]'); if(!b) return;
+    var n = b.getAttribute('data-case'), d = V[n]; if(!d) return;
+    var art = document.getElementById('caso-' + n);
+    var sc = art.querySelector('.screen');
+    var v = document.createElement('video');
+    v.className = 'vid'; v.src = d[0]; v.poster = d[1]; v.controls = true; v.autoplay = true; v.playsInline = true; v.preload = 'metadata';
+    v.setAttribute('aria-label', 'Vídeo do site ' + d[2]);
+    sc.replaceChildren(v);
+    art.querySelectorAll('.act [data-case]').forEach(function(x){ x.remove(); });
+    var p = v.play(); if (p && p.catch) p.catch(function(){});
+  });
+})();
+</script>
+</body>
+</html>
